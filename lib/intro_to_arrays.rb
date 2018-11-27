@@ -7,7 +7,7 @@ def array_with_two_elements
 end
 
 def first_element(array)
-  array.first_element
+  array[0]
 end
 
 def third_element(array)
@@ -15,5 +15,7 @@ def third_element(array)
 end
 
 def last_element(array)
-  array.last_element
+  array[array.size-1]
 end
+
+
